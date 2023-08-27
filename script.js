@@ -16,7 +16,7 @@ gsap.fromTo('.loading-page',
   {
     opacity: 1,
     duration: 1.5,
-    delay: 2,
+    delay: 3,
   }
 );
 
