@@ -23,19 +23,30 @@
 #svg {
   height: 150px;
   width: 150px;
-  stroke: #fff;
+  stroke: #E7FF52;
+  stroke-width: 8px;
   fill-opacity: 0;
   stroke: 3px;
-  stroke-dasharray: 4500;
-  animation: draw 70s ease;
+  stroke-dasharray: 7000;
+  animation: draw 8s ease infinite;
 }
 
 @keyframes draw {
   0% {
-    stroke-dashoffset: 4500;
+    stroke-dashoffset: 7000;
+    fill-opacity: 0;
+  }
+  25% {
+    fill-opacity: 0.25;
+  }
+  50% {
+    fill-opacity: 0.50;
+  }
+  75% {
+    fill-opacity: 0.75;
   }
   100% {
-    stroke-dashoffset: 0;
+    fill-opacity: 1;
   }
 }
 
