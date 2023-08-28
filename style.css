@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Krona+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0F424D, #071F24);
+}
+
+.comming-soon {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comming-soon p {
+  font-family: 'JetBrains Mono', monospace;
+  color: #fff;
+}
+
+.loading-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-image: url('./assets/logo-bg.png');
+  background-size: 550px;
+  background-repeat: no-repeat;
+  background-position: 90% 30%;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+.name-container {
+  height: 50px;
+  overflow: hidden;
+}
+
+.logo-name p {
+  font-family: 'Krona One', sans-serif;
+  color: #fff;
+  letter-spacing: 1;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.logo-name small {
+  padding-top: 8px;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  color: #ccc;
+}
