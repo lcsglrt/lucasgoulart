@@ -25,7 +25,6 @@
   width: 150px;
   stroke: #E7FF52;
   stroke-width: 8px;
-  fill-opacity: 0;
   stroke: 3px;
   stroke-dasharray: 7000;
   animation: draw 8s ease;
