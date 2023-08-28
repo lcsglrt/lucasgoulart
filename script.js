@@ -29,6 +29,6 @@ gsap.fromTo('.logo-name',
     y: 0,
     opacity: 1,
     duration: 2,
-    delay: 1.5,
+    delay: 2.5,
   }
 );
