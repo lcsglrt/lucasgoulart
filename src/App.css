@@ -1,30 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Krona+One&display=swap');
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right, #0F424D, #071F24);
-}
-
 .comming-soon {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.comming-soon p {
   font-family: 'JetBrains Mono', monospace;
   color: #fff;
 }
@@ -49,19 +23,29 @@ body {
 #svg {
   height: 150px;
   width: 150px;
-  stroke: #fff;
-  fill-opacity: 0;
-  stroke-width: 3px;
-  stroke-dasharray: 4500;
-  animation: draw 30s ease;
+  stroke: #E7FF52;
+  stroke-width: 8px;
+  stroke: 3px;
+  stroke-dasharray: 7000;
+  animation: draw 8s ease;
 }
 
 @keyframes draw {
   0% {
-    stroke-dashoffset: 4500;
+    stroke-dashoffset: 7000;
+    fill-opacity: 0;
+  }
+  25% {
+    fill-opacity: 0.25;
+  }
+  50% {
+    fill-opacity: 0.50;
+  }
+  75% {
+    fill-opacity: 0.75;
   }
   100% {
-    stroke-dashoffset: 0;
+    fill-opacity: 1;
   }
 }
 
