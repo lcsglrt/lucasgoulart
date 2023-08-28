@@ -1,0 +1,61 @@
+.comming-soon {
+  font-family: 'JetBrains Mono', monospace;
+  color: #fff;
+}
+
+.loading-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-image: url('./assets/logo-bg.png');
+  background-size: 550px;
+  background-repeat: no-repeat;
+  background-position: 90% 30%;
+}
+
+#svg {
+  height: 150px;
+  width: 150px;
+  stroke: #fff;
+  fill-opacity: 0;
+  stroke: 3px;
+  stroke-dasharray: 4500;
+  animation: draw 70s ease;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 4500;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.name-container {
+  height: 50px;
+  overflow: hidden;
+}
+
+.logo-name p {
+  font-family: 'Krona One', sans-serif;
+  color: #fff;
+  letter-spacing: 1;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.logo-name small {
+  padding-top: 8px;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  color: #ccc;
+}
