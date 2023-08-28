@@ -28,7 +28,7 @@
   fill-opacity: 0;
   stroke: 3px;
   stroke-dasharray: 7000;
-  animation: draw 8s ease infinite;
+  animation: draw 8s ease;
 }
 
 @keyframes draw {

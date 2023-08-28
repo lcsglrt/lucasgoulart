@@ -12,7 +12,7 @@ function App() {
       y: 0,
       opacity: 1,
       duration: 2,
-      delay: 2,
+      delay: 3.5,
     }
   );
 
@@ -27,7 +27,7 @@ function App() {
           <div className="name-container">
             <div className="logo-name">
               <p>Lucas Goulart</p>
-              <small>Front-end Developer & UI/UX Designer</small>
+              <small>Desenvolvedor Front-end & UI/UX Designer</small>
             </div>
           </div>
         </div>
